@@ -1,0 +1,11 @@
+{
+  "jenkins": {
+    "mesos-master": "zk://zookeeper.service.consul:2181/mesos",
+    "mem": 2048.0,
+    "jvm-opts": "-Xms2048m -Xmx2048m",
+    "host-volume": "/opt/jenkins"
+  },
+  "mantl": {
+    "load-balancer": "external"
+  }
+}
